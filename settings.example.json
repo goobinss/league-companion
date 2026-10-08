@@ -1,0 +1,23 @@
+{
+  "auto_accept": true,
+  "accept_delay": 1.0,
+  "auto_pick": false,
+  "pick_ids": [],
+  "auto_lock": false,
+  "auto_ban": false,
+  "ban_ids": [],
+  "action_delay": 1.0,
+  "auto_spells": false,
+  "spell1_id": 4,
+  "spell2_id": 14,
+  "auto_roles": false,
+  "primary_role": "MIDDLE",
+  "secondary_role": "TOP",
+  "auto_reconnect": false,
+  "auto_play_again": false,
+  "queue_timeout": 0,
+  "auto_runes": false,
+  "rune_page_id": 0,
+  "lockfile_path": "",
+  "poll_interval": 1.0
+}

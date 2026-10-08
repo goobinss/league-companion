@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "league-companion-local"
+version = "0.1.0"
+description = "Small, local League client automation desktop app"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.gui-scripts]
+league-companion = "league_companion.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["league_companion*"]
+
+[tool.setuptools.package-data]
+league_companion = ["assets/*.png"]
